@@ -1,0 +1,52 @@
+Run started:2025-10-27 17:19:00.703029
+
+Test results:
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   CWE: CWE-330 (https://cwe.mitre.org/data/definitions/330.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random
+   Location: .\ball.py:32:26
+31	        self.screen_height = screen_height
+32	        self.velocity_x = random.choice([-3, 3])
+33	        self.velocity_y = random.choice([-2, 2])
+
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   CWE: CWE-330 (https://cwe.mitre.org/data/definitions/330.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random
+   Location: .\ball.py:33:26
+32	        self.velocity_x = random.choice([-3, 3])
+33	        self.velocity_y = random.choice([-2, 2])
+34	        self.MAX_SPEED = 7
+
+--------------------------------------------------
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes.
+   Severity: Low   Confidence: High
+   CWE: CWE-330 (https://cwe.mitre.org/data/definitions/330.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b311-random
+   Location: .\ball.py:43:26
+42	        self.velocity_x *= -1
+43	        self.velocity_y = random.choice([-2, 2])
+44	
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 884
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 3
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 3
+Files skipped (1):
+	.\lab3.py (syntax error while parsing AST from file)

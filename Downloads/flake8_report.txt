@@ -1,0 +1,27 @@
+inventory_system.py:11:1: E302 expected 2 blank lines, found 1
+inventory_system.py:12:80: E501 line too long (91 > 79 characters)
+inventory_system.py:16:80: E501 line too long (82 > 79 characters)
+inventory_system.py:21:80: E501 line too long (80 > 79 characters)
+inventory_system.py:22:80: E501 line too long (100 > 79 characters)
+inventory_system.py:24:1: E302 expected 2 blank lines, found 1
+inventory_system.py:25:80: E501 line too long (85 > 79 characters)
+inventory_system.py:28:80: E501 line too long (91 > 79 characters)
+inventory_system.py:31:80: E501 line too long (82 > 79 characters)
+inventory_system.py:39:80: E501 line too long (84 > 79 characters)
+inventory_system.py:41:1: E302 expected 2 blank lines, found 1
+inventory_system.py:42:80: E501 line too long (91 > 79 characters)
+inventory_system.py:43:80: E501 line too long (84 > 79 characters)
+inventory_system.py:45:1: E302 expected 2 blank lines, found 1
+inventory_system.py:48:80: E501 line too long (86 > 79 characters)
+inventory_system.py:51:1: E302 expected 2 blank lines, found 1
+inventory_system.py:54:80: E501 line too long (87 > 79 characters)
+inventory_system.py:56:1: E302 expected 2 blank lines, found 1
+inventory_system.py:57:80: E501 line too long (90 > 79 characters)
+inventory_system.py:58:80: E501 line too long (84 > 79 characters)
+inventory_system.py:62:1: E302 expected 2 blank lines, found 1
+inventory_system.py:63:80: E501 line too long (84 > 79 characters)
+inventory_system.py:65:80: E501 line too long (85 > 79 characters)
+inventory_system.py:72:1: E302 expected 2 blank lines, found 1
+inventory_system.py:81:80: E501 line too long (89 > 79 characters)
+inventory_system.py:91:1: E305 expected 2 blank lines after class or function definition, found 1
+inventory_system.py:92:80: E501 line too long (96 > 79 characters)
